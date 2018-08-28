@@ -1,0 +1,13 @@
+
+.textWrapper {
+  color: $color-text;
+  max-width: 90%;
+  text-align: left;
+  @extend %center;
+  margin-top: 2%;
+
+  @include mq(medium) {
+    max-width: 70%;
+    padding-right: 60px;
+  }
+}

@@ -1,0 +1,16 @@
+
+
+.videoWrapper {
+    max-width: 95%;
+    @extend %center;
+    margin-top: 2%;
+
+    @include mq(medium) {
+      max-width: 70%;
+  }
+}
+
+.videoClass .mejs__controls:not([style*='display: none']) {
+    background: $color-primary;
+
+}
