@@ -330,4 +330,7 @@ body {
       max-width: 70%;
       padding-right: 60px; } }
 
+.captionsClass {
+  cursor: pointer; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -33,11 +33,3 @@ for(let i = 0; i < spanText.length; i += 1) {
     v.play();
   })
 }
-
-
-// pointer
-for(let i = 0; i < spanText.length; i += 1) {
-  spanText[i].addEventListener('mouseover', (event) => {
-    spanText[i].style.cursor = "pointer";
-  })
-}
